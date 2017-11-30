@@ -1,6 +1,6 @@
 # Escrita de Itens de Trabalho
 
-### Esse capítulo se dedicará a realizar uma introdução ao tema de escrita de itens de trabalho.
+Esse capítulo se dedicará a realizar uma introdução ao tema de escrita de itens de trabalho.
 
 ## Para quem é esse capítulo?
 
@@ -14,7 +14,7 @@ Boa leitura! E sucesso na escrita de novos produtos!
 
 ### Qual a origem das _user stories_?
 
-Bem, vamos falar um pouco das _user stories_, começando pelo seu surgimento (aqui, trataremos também por _**US**_. 
+Bem, vamos falar um pouco das _user stories_, começando pelo seu surgimento (aqui, trataremos também por _**US**_). 
 
 _User stories_ ou _histórias de usuário_ são, em alguns casos, a forma como são documentados os requisitos de software dentro de um contexto ágil. Elas surgiram há um certo tempo (a primeira descrição vem de 1998), dentro de uma metodologia chamada *eXtreme Programming*, ou *XP*. Essa foi a forma encontrada pelos seus criadores, de registrar as demandas de clientes (ou usuários) de forma a tratá-las durante o desenvolvimento. Na época, foi dito que elas deveriam ser utilizadas para definir o escopo do projeto, assim como _casos de uso_.
 
@@ -31,10 +31,15 @@ Vejamos agora, o que significam os acrônimos apresentados por Bill Wake.
 **INVEST** é um acrônimo que significa:
 
 > I - Independent
+> 
 > N - Negotiable 
+> 
 > V - Valuable
+> 
 > E - Estimable
+> 
 > S - Small
+> 
 > T - Testable
 
 Vamos entender cada um dos pontos?
@@ -60,9 +65,13 @@ A ideia principal, é que a _user story_ tenha um tamanho referente ao trabalho 
 Agora, falando de tarefas temos o conceito de **SMART** que descreve:
 
 > S - Specific
+> 
 > M - Measurable
+> 
 > A - Achievable
+> 
 > R - Relevant
+> 
 > T - Time-boxed
 
 Descrevendo cada tópico, temos que:
@@ -143,22 +152,22 @@ Desta forma, no verso do nosso cartão podemos adicionar um campo de dúvidas. C
 Assim, o campo de descrição da ferramenta online ou o cartão físico ficariam:
 
 > Dúvidas
-> - Negócio
-> 	- Aqui vai uma dúvida de negócio.
->	- Aqui vai outra dúvida de negócio.
-> - Técnicas
-> 	- Aqui vai uma dúvida técnica.
->	- Aqui vai outra dúvida técnica.
->	- Aqui vai mais uma dúvida técnica.
+> * Negócio
+> 	* Aqui vai uma dúvida de negócio.
+>	* Aqui vai outra dúvida de negócio.
+> * Técnicas
+> 	* Aqui vai uma dúvida técnica.
+>	* Aqui vai outra dúvida técnica.
+>	* Aqui vai mais uma dúvida técnica.
 
 Com dúvidas adicionadas, o que mais faltaria? Como saber se o item de trabalho está pronto após o desenvolvimento? Quais critérios eu tenho pra saber se foi concluído? Adicionando um campo para **critérios de aceite**, consegue-se validar quando um item está pronto, ou não.
 
 Critérios de aceite auxiliam, e muito, na comunicação do time. Pois enquanto a descrição do item nos diz **o que** precisa ser feito, os critérios nos dizem **como** precisa ser feito. E isso nos traz os seguintes benefícios:
 
-- Há um comprometimento dos desenvolvedores do que eles precisam desenvolver para determinada funcionalidade, ou seja, qual o escopo desta funcionalidade.
-- Se cria o comprometimento do responsável de negócio, de que ele passou as especificações corretas do que a funcionalidade precisa apresentar para ser validada (lembra do aceite do PO lá do Scrum?);
-- O _QA_ (analista de qualidade, ou testador) fica ciente do que está incluso no escopo da funcionalidade, e o que ele deve testar e verificar se apresenta o comportamento esperado;
-- Cria o entendimento do time como um todo, de qual valor estará sendo gerado por este incremento de produto.
+* Há um comprometimento dos desenvolvedores do que eles precisam desenvolver para determinada funcionalidade, ou seja, qual o escopo desta funcionalidade.
+* Se cria o comprometimento do responsável de negócio, de que ele passou as especificações corretas do que a funcionalidade precisa apresentar para ser validada (lembra do aceite do PO lá do Scrum?);
+* O _QA_ (analista de qualidade, ou testador) fica ciente do que está incluso no escopo da funcionalidade, e o que ele deve testar e verificar se apresenta o comportamento esperado;
+* Cria o entendimento do time como um todo, de qual valor estará sendo gerado por este incremento de produto.
 
 Além de critérios de aceite há ainda outro recurso que podemos (e devemos na medida do possível) utilizar, são wireframes e prototipações da tela, mostrando como será a jornada de usuário dentro da funcionalidade. Desta forma, todos terão a mesma visão do como será construído, e conseguiremos mais facilmente realizar testes e validações.
 
@@ -172,4 +181,60 @@ A boa escrita de itens de trabalho está intimamente ligada ao nível de detalha
 
 ## Sessão mão na massa
 
-### Vamos criar um produto? Que tal escrevermos um item de trabalho para a criação de um sistema  mobile de companhia aérea?
+### Sistema mobile de companhia aérea
+
+Pensemos num sistema mobile de uma companhia aérea, por exemplo. Vamos criar um item de trabalho que solicite a realização de checkin para o vôo através do aplicativo.
+
+Tendo em vista um cliente desta companhia, poderíamos descrever uma história para o usuário final, ou seja, o passageiro. Pensando no escopo definido acima, podemos escrever de duas formas. No estilo clássico de _user story_:
+
+> Eu, como *passageiro* gostaria de *realizar o checkin dos meus vôos pelo aplicativo do meu celular* para que *eu possa agilizar os meu checkins, de forma que se torne mais fácil por já estar com o celular em mãos, e já utilizá-lo para apresentar os cartões de embarque*.
+
+Ou de uma forma menos lúdica:
+
+> **Motivação**: Para que um passageiro consiga otimizar o uso do aplicativo, além de somente exibição do bilhete de embarque é necessário que o aplicativo possua a opção de checkin.
+
+Desta forma, damos conta da primeira parte da escrita de um item de trabalho, **o que** precisa ser feito. Agora podemos olhar a segunda parte, **como** entregaremos o que foi solicitado?
+
+Como citado anteriormente, podemos adicionar mais campos na descrição, como dúvidas por exemplo. Levando em conta o cenário apresentado há perguntas que podem ficar no ar, certo?
+
+Pensando em negócio:
+
+> * Como saber qual o vôo do cliente?
+> * Como saber se o cliente vai despachar bagagem?
+> * Como saber se o checkin já está disponível para determinado vôo?
+
+Pensando tecnicamente:
+> * Onde consigo as informações de checkin?
+> * Onde consigo número de vôo e assento que o passageiro comprou?
+
+Nenhuma dessas perguntas é respondida pela motivação ou pela descrição lúdica, correto? Então podemos adicioná-las no detalhe do verso do cartão ou no campo descrição da ferramenta online.
+
+Agora pensando em implementação mais direta:
+
+> Como eu gostaria que fosse feito o checkin?
+
+Na cabeça de alguém de negócio por exemplo, o usuário deve fazer o login no aplicativo mobile. Desta forma todos os próximos vôos serão exibidos para o cliente selecionar qual ele gostaria de fazer o checkin. Entretanto, na cabeça do desenvolvedor, pode vir a ideia de ignorar um possível login e de simplesmente solicitar para o usuário o código de reserva e o sobrenome do passageiro, para que desta forma ele possa retornar as informações de checkin. Concorda comigo que são duas abordagens que no final levariam ao mesmo fim - o checkin do usuário - entretanto teriam custos de desenvolvimento diferentes e experiências de usuário também diferentes? Inclusive ambas abordagens já são utilizadas nos sistemas WEB das companhias aéreas. Se essas opções não forem debatidas durante a discussão do item de trabalho, deixamos um silo de comunicação que pode ser interpretado por no mínimo duas formas diferentes.
+
+Assim sendo, podemos escrever um critério de aceite da seguinte forma:
+
+> O usuário deve realizar o login no aplicativo mobile, para que desta forma ele possa acessar todas as informações relativas ao seu vôo e assim escolher em qual vôo ele pode fazer o checkin.
+
+Bom, não acha? Já temos um critério de aceite escrito! Mas, podemos melhorá-lo! Conseguiu perceber algo que poderia ser melhor descrito? Olha só:
+
+> _"ele possa acessar todas as informações relativas ao seu vôo"_
+
+O que são "todas as informações"? Podemos fazer melhor que isso! Podemos deixar bem descrito o que esperamos que o passageiro veja. Lembre-se: comunicação! Vamos focar na clareza! Que tal se reescrevermos desta forma:
+
+> O usuário deve realizar o login no aplicativo mobile, para que desta forma ele possa acessar suas informações relativas ao seu vôo (data do vôo, horário do vôo, número de reserva, origem e destino) e assim escolher em qual vôo ele pode fazer o checkin.
+
+Não ficou melhor? Estamos comunicando exatamente o que esperamos desta funcionalidade! Podemos continuar, incrementando os critérios de aceite:
+
+> Ao selecionar seu vôo, o passageiro deve selecionar se pretende despachar bagagem através de um menu que conterá as opções "SIM" ou "NÃO".
+
+> Ao selecionar a opção de "SIM" indicando que despachará bagagem, o aplicativo deve indicar ao passageiro para buscar a equipe de solo para entregar a bagagem a ser despachada.
+
+> Ao selecionar seu vôo, o passageiro terá a opção de confirmar seu assento selecionado durante a compra, ou de alterar o assento para um outro disponível no momento do checkin.
+
+Assim sendo conseguimos escrever nosso item de trabalho.
+
+Acredito que com o que já foi apresentado anteriormente, você seja plenamente capaz de dar seus primeiros passos no mundo da escrita de itens de trabalho! Treine, escreva novas funcionalidades, pense em possíveis pontos de divergência de pensamento entre membros do time, questione, discuta! Tudo isso te fará ter uma visão de negócio melhor, e consequentemente melhorarão suas habilidades de escrita de itens!Continue lendo, o livro tem muitas outras abordagens na escrita de itens de trabalho, abordaremos melhor o critério de aceite, além de ajudá-los a refinar as demandas de maneira eficiente!
