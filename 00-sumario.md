@@ -1,4 +1,4 @@
-### Gestão de escopo em projetos ágeis
+# Gestão de escopo em projetos ágeis
 
 * Introdução ao livro
 * Introdução a escopo
