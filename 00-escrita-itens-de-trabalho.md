@@ -139,7 +139,7 @@ Seguindo estes passos, você acaba de escrever uma clássica _user story_, enten
 
 Essa é uma das formas mais lúdicas de se escrever itens de trabalho. Há pessoas que escrevem de forma diferente, mais direta e menos lúdica. Chamando apenas de "Motivação" a junção de todos os campos acima.
 
-Em alguns projetos talvez essa escrita simples seja o suficiente para o desenvolvimento da funcionalidade, para projetos menores e/ou com menos restrições talvez seja válido. Entretando projetos maiores e mais complexos necessitam de mais informações para o bom andamento do escopo.
+Em alguns projetos talvez essa escrita simples seja o suficiente para o desenvolvimento da funcionalidade, para projetos menores e/ou com menos restrições talvez seja válido e deve ser por isso que algumas pessoas dizem que *user stories* ou itens de trabalho são como convites para conversas, que devem ser desenvolvidas em cima da motivação proposta. Entretando projetos maiores e mais complexos necessitam de mais informações para o bom andamento do escopo.
 
 Desta forma, podemos adicionar melhores esclarecimentos na descrição do item de trabalho. Existe um campo próprio pra isso no Jira e no Trello, por exemplo. Já na ficha pautada, pode-se sempre usar o verso do cartão com esse intuito.
 
@@ -154,11 +154,11 @@ Assim, o campo de descrição da ferramenta online ou o cartão físico ficariam
 > Dúvidas
 > * Negócio
 > 	* Aqui vai uma dúvida de negócio.
->	* Aqui vai outra dúvida de negócio.
+> 	* Aqui vai outra dúvida de negócio.
 > * Técnicas
 > 	* Aqui vai uma dúvida técnica.
->	* Aqui vai outra dúvida técnica.
->	* Aqui vai mais uma dúvida técnica.
+> 	* Aqui vai outra dúvida técnica.
+> 	* Aqui vai mais uma dúvida técnica.
 
 Com dúvidas adicionadas, o que mais faltaria? Como saber se o item de trabalho está pronto após o desenvolvimento? Quais critérios eu tenho pra saber se foi concluído? Adicionando um campo para **critérios de aceite**, consegue-se validar quando um item está pronto, ou não.
 
@@ -170,6 +170,10 @@ Critérios de aceite auxiliam, e muito, na comunicação do time. Pois enquanto 
 * Cria o entendimento do time como um todo, de qual valor estará sendo gerado por este incremento de produto.
 
 Além de critérios de aceite há ainda outro recurso que podemos (e devemos na medida do possível) utilizar, são wireframes e prototipações da tela, mostrando como será a jornada de usuário dentro da funcionalidade. Desta forma, todos terão a mesma visão do como será construído, e conseguiremos mais facilmente realizar testes e validações.
+
+É interessante adicionar também um campo com dependências externas, seja de outros times dentro do mesmo projeto ou produto, ou de times externos (integração com sistemas de terceiros, por exemplo).
+
+Outro ponto interessante de se perguntar ao escrever um item de trabalho é quais impactos ocorrerão por não entregá-lo? Ou que riscos isso traz ao negócio? Perda de clientes? Redução de receita mensal? Diminuição de participação no mercado frente aos concorrentes? Essas perguntas podem ajudá-lo durante a discussão do item para que possam simplificar o escopo e entregá-lo o mais rápido possível.
 
 Pode-se adicionar também sessões com **Observações** ou **Pontos de atenção** acerca da funcionalidade, qual impacto ela traz ao produto? Métricas ajudam nisso, pois auxiliam na medição do valor entregue pela funcionalidade.
 
