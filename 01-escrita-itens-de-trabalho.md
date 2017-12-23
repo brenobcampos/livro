@@ -1,9 +1,7 @@
 # Escrita de itens de trabalho
-<!--A enumeração do arquivo poderia começar com 01-escrita-itens-de-trabalho.md, em vez de 00, assim fica correspondente ao número do capítulo que será. Pode ser?-->
 Esse capítulo se dedicará a realizar uma introdução ao tema de escrita de itens de trabalho.
 
 ### Para quem é este capítulo?
-<!--Passei este tópico para title ### pois acho que não precisa ir no sumário (as sections são enumeradas automaticamente e vão ao sumário, são tópicos de mais importância, para bater o olho e saber o que tem no capítulo)-->
 
 Este capítulo se destina especialmente para pessoas que estão entrando agora no mundo do desenvolvimento ágil, e precisam com urgência saber como se tratam os itens de trabalho (ou _work items_) de maneira básica. Algo como _"Me jogaram hoje num projeto agile, e eu não faço a menor ideia de como escrever um item de trabalho, socorro!"_. A ideia é que você componha uma base de conhecimento para reduzir possíveis problemas causados por itens mal escritos. Todo o conteúdo apresentado será a base para o início de um projeto e, ao longo dos demais tópicos, você poderá aprimorar esse conhecimento.
 
@@ -15,24 +13,15 @@ Boa leitura! E sucesso na escrita de novos produtos!
 
 ### Qual a origem das _user stories_?
 
-Bem, vamos falar um pouco das _user stories_, começando pelo seu surgimento (aqui, trataremos também por _**US**_). 
-<!--Acho que não precisa falar "Vamos falar sobre", pois pelo título da seção ele já sabe que vamos falar disso, ok ? Poderia começar direto pelo parágrafo a seguir.-->
-
 _User stories_ ou _histórias de usuário_ são, em alguns casos, a forma como são documentados os requisitos de software dentro de um contexto ágil. Elas surgiram há um certo tempo (a primeira descrição vem de 1998), dentro de uma metodologia chamada *eXtreme Programming*, ou *XP*. Essa foi a forma encontrada pelos seus criadores para registrar as demandas de clientes (ou usuários) de forma a tratá-las durante o desenvolvimento. Na época, foi dito que elas deveriam ser utilizadas para definir o escopo do projeto, assim como _casos de uso_.
 
 As _US_ têm esse nome pois devem (ou deveriam) representar a visão de um usuário acerca do que precisa ser feito para a geração de um incremento de produto. Como assim? A ideia primordial de uma _US_ é que ela represente uma necessidade real de um usuário, na forma como ele vê o problema e como ele gostaria que fosse resolvido. Por isso, foi criado um _"formato padrão"_ de escrita de demandas, que de fato, conta uma _história_.
 
 ### Quais as boas práticas para escrever _user stories_?
 
-Bill Wake, compilou em um artigo de 2003 algumas boas práticas sobre a escrita de _user stories_ que, até hoje, são utilizadas direta ou indiretamente. Seu artigo _["INVEST in Good Stories, and SMART Tasks"](https://xp123.com/articles/invest-in-good-stories-and-smart-tasks/)_ dá dicas de certas características desejáveis na escrita de _US_.
-<!--Devido às edições impressas, não utilizamos esta tag para links, pois o endereço não apareceria. O que fazemos é deixar o link expresso, entre parênteses mesmo, assim:
-"Seu artigo _INVEST in Good Stories, and SMART Tasks_ (https://xp123.com/articles/invest-in-good-stories-and-smart-tasks/)" 
-Pois o link ficará clicável nos formatos digitais, e quem ler no impresso enxergará o link-->
+Bill Wake, compilou em um artigo de 2003 algumas boas práticas sobre a escrita de _user stories_ que, até hoje, são utilizadas direta ou indiretamente. Seu artigo _"INVEST in Good Stories, and SMART Tasks"(https://xp123.com/articles/invest-in-good-stories-and-smart-tasks/)_ dá dicas de certas características desejáveis na escrita de _US_.
 
-Mas antes de analisarmos estas características, que tal conhecermos - ou relembrarmos - o que são funcionalidades (_features_), _user stories_ (ou, como trataremos ao longo do livro, **itens de trabalho**) e tarefas (_tasks_)? Funcionalidade, ou _feature_, é uma ação ou comportamento do sistema em que podemos visualizar um início e um fim, isto é, algo que é executado pelo sistema. Quando seu celular abre aplicativos com sua digital, isso é uma funcionalidade que se inicia ao tocar o botão e se encerra ao aplicativo ser aberto. Já _user story_, como explicado anteriormente, é uma forma de documentar as funcionalidades do software. O desbloqueio por digital, por exemplo, pode ter sido desenvolvido com base em uma ou mais _user stories_ que guiaram o desenvolvimento da funcionalidade. Já tarefas são partes menores da _user story_, ou seja, pequenos incrementos de escopo dentro dela.
-<!--Acho que podia padronizar aqui o seguinte: está funcionalidades (features), user stories (itens de trabalho) e tarefas (tasks). Isto é, pt (en), en (pt) e pt (en). Podia estar tudo na mesma ordem.-->
-<!--Outra coisa, a partir disso, acho que não precisa dizer "Funcionalidade, ou _feature_", já que já mostrou-se que são a mesma coisa. Opte pela forma como vocês vão chamá-lo daqui em diante.-->
-<!--Vocês vão realmente chamar _user stories_ de itens de trabalho ao longo do livro (como está dito entre parênteses)? Pois pelo menos neste capítulo, continuam a usar o termo em inglês. Acho até melhor e mais familiar se mantermos em inglês mesmo _user stories_. Ou por que não histórias de usuário?-->
+Mas antes de analisarmos estas características, que tal conhecermos - ou relembrarmos - o que são _features_ (funcionalidades), _user stories_ (histórias de usuário, ou como trataremos ao longo do livro, **itens de trabalho**) e _tasks_ (tarefas)? Funcionalidade é uma ação ou comportamento do sistema em que podemos visualizar um início e um fim, isto é, algo que é executado pelo sistema. Quando seu celular abre aplicativos com sua digital, isso é uma funcionalidade que se inicia ao tocar o botão e se encerra ao aplicativo ser aberto. Já item de trabalho, como explicado anteriormente, é uma forma de documentar as funcionalidades do software. O desbloqueio por digital, por exemplo, pode ter sido desenvolvido com base em um ou mais itens de trabalho que guiaram o desenvolvimento da funcionalidade. Já tarefas são partes menores do item de trabalho, ou seja, pequenos incrementos de escopo dentro dela.
 
 Vejamos agora, o que significam os acrônimos apresentados por Bill Wake.
 
@@ -91,11 +80,10 @@ A tarefa deve ser específica o suficiente para que todos os envolvidos no desen
 Deve ser possível medir e saber quando a tarefa está pronta, delimitando bem seu escopo de desenvolvimento frente à história desenvolvida.
 
 **Alcançável (_Achievable_)**
-É possível entregar essa tarefa? É possível desenvolvê-la? O responsável pode entregá-la? Ou é simplesmente impossível realizar tal tarefa?
-<!--Achei que ficou estranho mudar este tópico para perguntas, sendo que os outros não estão assim. Isto é, os outros estão escritos diretamente, sem pergunta. Seria algo como: "A tarefa deve ser possível de ser desenvolvida e entregue. O responsável por ela deve conseguir entregá-la e ela não pode ser impossível de se realizar". O mesmo vale para o começo do tópico Relevante.-->
+Deve ser possível entregar a tarefa descrita. O responsável por ela deve conseguir entregá-la e ela não pode ser impossível de se realizar.
 
 **Relevante (_Relevant_)**
-Essa tarefa é relevante para o incremento de escopo esperado da _user story_? Agrega valor ao produto, ou seja, gera algum benefício para quem está utilizando? É esperado que cada tarefa possa ser explicada e justificada dentro de uma possível reunião para esclarecimento da _user story_.
+Essa tarefa deve ser relevante para o incremento de escopo esperado da _user story_. Agregando valor ao produto, ou seja, gerando algum benefício para quem está utilizando. É esperado que cada tarefa possa ser explicada e justificada dentro de uma possível reunião para esclarecimento da _user story_.
 
 **Com tempo definido (_Time-boxed_)**
 As tarefas precisam ter um tempo definido, não necessariamente uma medida de _X_ horas ou _Y_ dias. Mas é necessário ter uma certa ideia de quando será entregue, para que seja possível _levantar uma bandeira de atenção_ caso esta tarefa leve mais tempo que o esperado e se possa avaliar o que pode ser melhorado, ou o que poderia ter sido evitado/feito diferente.
@@ -104,8 +92,7 @@ As tarefas precisam ter um tempo definido, não necessariamente uma medida de _X
 
 Os conceitos apresentados anteriormente guiam a boa escrita de _user stories_ dentro do mundo da agilidade. São boas práticas que podem, ou não ser seguidas. A ideia é que elas auxiliem na escrita de itens de trabalho claros e mais concisos. Não são leis ou regras, são atributos desejáveis que nem sempre poderão ser atendidos em todos os itens de trabalho escritos. Apenas seguir estas práticas não garante o sucesso de sua escrita, entretanto elas aumentam as chances de a comunicação ser mais efetiva.
 
-Por último, cabe destacar que, com a chegada de novas metodologias, novos conceitos e novas ideias dentro da area de gerenciamento ágil de projetos, uma nova terminologia vem sendo utilizada, principalmente pela comunidade Kanban: **item de trabalho** ou em inglês **_work item_**. Neste livro trataremos o escopo que precisará ser escrita por este nome: item de trabalho.
-<!--Não entendi bem esta última frase. O escopo que precisará ser escrita por este nome-->
+Por último, cabe destacar que, com a chegada de novas metodologias, novos conceitos e novas ideias dentro da area de gerenciamento ágil de projetos, uma nova terminologia vem sendo utilizada, principalmente pela comunidade Kanban: **item de trabalho** ou em inglês **_work item_**.
 
 ## Como escrever um item de trabalho
 
@@ -115,16 +102,13 @@ Podemos utilizar o formato que foi tomado por convenção de uma _user story_ co
 
 > Eu, como _[cliente/usuário/operador]_ gostaria de _[ação que necessito que o sistema realize]_ para que _[objetivo final a ser alcançado]_.
 
-Desta forma, é possível ter uma visão básica de **o que** precisa ser feito, mas não necessariamente **como** precisa ser feito. Muitos times realizam a escrita dos itens de trabalho fisicamente em uma ficha pautada, que pode ser encontrada em qualquer papelaria. Outros times que trabalham remoto acabam adicionando os itens em um software ou serviço de gerencimento de projetos, como o [Jira](https://br.atlassian.com/software/jira) ou o [Trello](https://trello.com/), por exemplo.
-<!--Seguir aquela dica dos links que deixei no começo do capítulo-->
+Desta forma, é possível ter uma visão básica de **o que** precisa ser feito, mas não necessariamente **como** precisa ser feito. Muitos times realizam a escrita dos itens de trabalho fisicamente em uma ficha pautada, que pode ser encontrada em qualquer papelaria. Outros times que trabalham remoto acabam adicionando os itens em um software ou serviço de gerencimento de projetos, como o Jira(https://br.atlassian.com/software/jira) ou o Trello(https://trello.com/), por exemplo.
 
 No caso de uma ficha pautada, a parte da frente representa a descrição do item de trabalho, e no verso devem ser escritos detalhes sobre a funcionalidade. 
 
 Não há um padrão sobre como detalhar, e muitas das publicações e da literatura existente não dão grandes pistas sobre como fazer isso, deixando um novato em certos apuros sobre como descrever o que precisa ser feito, ou como saber se o que precisa ser feito foi realmente concluído e da maneira correta. Tudo o que se diz é: "detalhe o que precisa ser feito no verso, e adicione informações complementares.".
 
-<!--Aqui, supõe-se que o leitor já esteja familiarizado com o termo _stakeholder_. É isto mesmo, ou será que valeria a pena dizer algumas palavras (como um box) com uma breve definição?-->
-A ideia principal de um item de trabalho é que ela sirva de comunicação entre o time, dos _stakeholders_ aos desenvolvedores. Desta forma, é necessária clareza na escrita do item (**o que** precisa ser feito) e no detalhamento (**como** precisa ser feito), para que silos de comunicação sejam evitados, ou pelo menos diminuídos. Estes geralmente geram demandas que são completamente descartáveis por terem sido feitas com um entendimento divergente do escopo original.
-<!--Não entendi, nesta última frase, quem são "Estes", pois depois está no feminino "terem sido feitas"-->
+A ideia principal de um item de trabalho é que ela sirva de comunicação entre o time, dos _stakeholders_ (principais interessados, como por exemplo os investidores do produto, CEO da empresa ou gestores de produto) aos desenvolvedores. Desta forma, é necessária clareza na escrita do item (**o que** precisa ser feito) e no detalhamento (**como** precisa ser feito), para que silos de comunicação sejam evitados, ou pelo menos diminuídos. Pois estes silos de comunicação geralmente geram demandas que são completamente descartáveis por terem sido feitas com um entendimento divergente do escopo original.
 
 Veja, não estou jogando a culpa no desenvolvedor. Como disse anteriormente a ideia de um item de trabalho é promover a comunicação, e esta é responsabilidade de ambos: tanto emissor quanto receptor. Aquela velha conversa de que "Sou responsável pelo que falo, não pelo que você entende" não faz o menor sentido. A comunicação deve ser clara, objetiva e efetiva. O emissor deve garantir que o que receptor entenda a informação, assim como o receptor deve ter certeza de que entendeu exatamente o que o emissor queria comunicar.
 
@@ -179,31 +163,17 @@ Com dúvidas adicionadas, o que mais faltaria? Como saber se o item de trabalho 
 Critérios de aceite auxiliam, e muito, na comunicação do time. Pois enquanto a descrição do item nos diz **o que** precisa ser feito, os critérios nos dizem **como** precisa ser feito. E isso nos traz os seguintes benefícios:
 
 * Há um comprometimento dos desenvolvedores do que eles precisam desenvolver para determinada funcionalidade, ou seja, qual o escopo desta funcionalidade.
-* Cria-se o comprometimento do responsável de negócio, de que ele passou as especificações corretas do que a funcionalidade precisa apresentar para ser validada (lembra do aceite do PO lá do Scrum?);
+* Cria-se o comprometimento do responsável de negócio, de que ele passou as especificações corretas do que a funcionalidade precisa apresentar para ser validada. Algumas metodologias possuem uma reunião específica para este momento, o SCRUM por exemplo adota o uso de uma cerimônia de revisão (_review_) onde o gerente de produto ou _product owner_ realiza o aceite;
 * O _QA_ (analista de qualidade, ou testador) fica ciente do que está incluso no escopo da funcionalidade, e o que ele deve testar e verificar se apresenta o comportamento esperado;
 * Cria o entendimento do time como um todo, de qual valor estará sendo gerado por este incremento de produto.
-<!--Será que o leitor já vai mesmo estar familiarizado com "o aceite do PO lá do Scrum?". É preciso deixar bastante claro nos pré-requisitos o que já se espera que o leitor saiba para este livro-->
 
-Além de critérios de aceite há ainda outro recurso que podemos (e devemos, na medida do possível) utilizar: são _wireframes_ e prototipações da tela, mostrando como será a jornada de usuário dentro da funcionalidade. Desta forma, todos terão a mesma visão do como será construído, e conseguiremos mais facilmente realizar testes e validações.
-<!--Aqui caberia uma explicação maior do que são wireframes e prototipações da tela-->
+Além de critérios de aceite há ainda outro recurso que podemos (e devemos, na medida do possível) utilizar: _wireframes_, que são exibições de como a funcionalidade ou produto vai se comportar, pois representa a jornada de usuário dentro do sistema, esta jornada é navegável, ou seja, ao clicar ou executar uma ação, o _wireframe_ simula a resposta disso, mostrando mensagens de erro ou exibindo o próximo passo da navegação. Desta forma, todos terão a mesma visão do como será construído, e conseguiremos mais facilmente realizar testes e validações.
 
-É interessante adicionar também um campo com dependências externas, seja de outros times dentro do mesmo projeto ou produto, ou de times externos (integração com sistemas de terceiros, por exemplo).
-<!--Isto aqui também acho que mereceria ser mais desenvolvido. Aumentar esta explicação-->
+É interessante adicionar também um campo com dependências externas, seja de outros times dentro do mesmo projeto ou produto, ou de times externos (integração com sistemas de terceiros, por exemplo). Como por exemplo um produto que se utilize de meios de pagamentos para realizar sua função completa. Há uma alta depência da integração com os sistemas de pagamento. Essa dependência deve ser mapeada e deve-se levar em conta essa complexidade durante a escrita do item de trabalho.
 
 Outro ponto interessante de se perguntar ao escrever um item de trabalho é quais impactos ocorrerão por não entregá-lo? Ou que riscos isso traz ao negócio? Perda de clientes? Redução de receita mensal? Diminuição de participação no mercado frente aos concorrentes? Essas perguntas podem ajudá-lo durante a discussão do item para que possam simplificar o escopo e entregá-lo o mais rápido possível.
 
-Seções com **Observações** ou **Pontos de atenção** acerca da funcionalidade podem também ser adicionadas. Por exemplo, qual impacto ela traz ao produto? O uso de métricas ajuda nisso, pois elas auxiliam na medição do valor entregue pela funcionalidade.
-
-Outra seção que pode ser adicionada seria **Como testar?**. Um item de trabalho um pouco mais técnico que exige trocas de ambiente, troca de status de um serviço ou análise de métricas pode esconder _edge_ cases perigosos. Auxiliar o analista de qualidade mostrando como testar pode otimizar o fluxo como um todo.
-
-<!--Achei que estes últimos parágrafos, curtinhos, ficaram estranhos e amontoados (a partir de wireframes). Isto é, fcou assim: outro ponto é este, outra coisa, outra, e mais outra. Que tal organizar assim: criar um title ### Outras seções para detalhamento do card (ou um nome melhor que este, na verdade). E nela, dizer em tópicos: 
-* **Wireframes e prototipação de tela**: blablabla
-* **Dependências externa**: bla bla bla
-* ** Impactos ao não entregá-lo**: blabla
-* **Observações ou Pontos de atenção**: bla
-* **Como testar**: bla
-Assim pelo menos fica menos estranho estar curtinho e amontoado, pois vira efetivamente uma lista. O que acham?
--->
+Seções com **Observações** ou **Pontos de atenção** acerca da funcionalidade podem também ser adicionadas. Por exemplo, qual impacto ela traz ao produto? O uso de métricas ajuda nisso, pois elas auxiliam na medição do valor entregue pela funcionalidade. Além disso, uma seção que pode ser adicionada é **Como testar?**. Um item de trabalho um pouco mais técnico que exige trocas de ambiente, troca de status de um serviço ou análise de métricas pode esconder _edge_ cases perigosos. Auxiliar o analista de qualidade mostrando como testar pode otimizar o fluxo como um todo.
 
 ### Conclusão
 
@@ -227,14 +197,14 @@ Desta forma, damos conta da primeira parte da escrita de um item de trabalho, **
 
 Como citado anteriormente, podemos desenvolver mais o detalhamento e adicionar mais campos na descrição, como dúvidas por exemplo. Levando em conta o cenário apresentado há perguntas que podem ficar no ar, certo?
 
-<!--Você podia manter a mesma nomenclatura que usou anteriormete: Dúvidas de negócio e Dúvidas técnicas, em vez de "Pensando em negócio" etc.-->
-Pensando em negócio:
+Dúvidas de negócio:
 
 > * Como saber qual o voo do cliente?
 > * Como saber se o cliente vai despachar bagagem?
 > * Como saber se o checkin já está disponível para determinado vôo?
 
-Pensando tecnicamente:
+Dúvidas técnicas:
+
 > * Onde consigo as informações de checkin?
 > * Onde consigo número de voo e assento que o passageiro comprou?
 
