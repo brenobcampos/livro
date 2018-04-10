@@ -8,8 +8,8 @@ Agora que já sabemos como realizar a escrita de um item de trabalho, já vimos 
 ## Introdução ao processo de _refining_
 
 > “Eu sou responsável pelo que escrevo, não pelo que você entende.”
->
-> Não!!! A responsabilidade da clareza de comunicação é de todos. E o _refining_ é sobre isso: alinhamento, comunicação clara e objetiva!
+
+Não!!! A responsabilidade da clareza de comunicação é de todos. E o _refining_ é sobre isso: alinhamento, comunicação clara e objetiva!
 
 Um aprendizado que obtive nestes anos trabalhando com gestão de projetos e criação de novos produtos digitais é que constantemente há dúvidas quanto à execução do _refining_ dos itens de trabalho - algumas pessoas chamam de _grooming_, entretanto tem entrado em desuso, dado que em alguns países de língua inglesa a expressão tem sido relacionada a casos de assédio. Inclusive o Scrum Guide (http://www.scrumguides.org/docs/scrumguide/v2017/2017-Scrum-Guide-Portuguese-Brazilian.pdf) abandonou o uso da palavra em 2013.
 
